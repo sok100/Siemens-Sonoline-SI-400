@@ -1,0 +1,1043 @@
+BEGIN
+
+begin
+	/* << UNITPTR >> caliper unit	*/
+100,50," mm   mm   cm\004  cm\005  mm   s    B/m mm/s  kHz  s   "
+101,40," B/m cm/s cm/s       \245    ml   mm\004  mm\005  "
+	/* << MIPTR >> caliper measure mark	*/
+111,18," DLSVPTFVFTFVVI\360"
+	/* << ANGMSGPTR >> caliper angle graph	*/
+112,42,"Sonometre selon GRAF              SEMAINES"
+113,42,"   35   40   45   50   55   60   65   70\245\360"
+118,42,"   80   75   70   65   60   55   50   45\245\252"
+119,42,"      CRITIQUE                            "
+120,42,"        ZONE                              "
+	/* << LABELPTR >> caliper label set up	*/
+124,28,"Entrer libell\226  en 4 caract."
+	/* << EPCPTR >> ENDO_P caliper */
+126,22,"  Rektum     Prostate "
+	/* << ABEMSGPTR >> preg abelage data disp.	*/
+127,10,"M\226MOIRE  "
+
+	/* << PB2PTR >> play back	*/
+140,16,"Entrer CODE ????"
+	/* << PB3PTR >> play back	*/
+141,42,"MODE ?      [ B ]  [ M ]  [ D ]          "
+	/* << PB6PTR >> play back width	*/
+142,32,"               LARGEUR=???mm  "
+	/* << PB7PTR >> play back depth	*/
+143,32,"            PROFONDEUR=???mm  "
+	/* << PB8PTR >> play back sweep	*/
+144,32,"               VITESSE=??.?sec"
+	/* << PB9PTR >> play back frequency	*/
+145,32,"             FREQUENCE=??.?KHz"
+145,32,"              Vitesse =??.?m/s"
+145,24,"Entrer ANGLE DOPPLER 00"
+	/* << PBAPTR >> play back completion	*/
+146,36,"MESURE SUR ENREGISTREMENT COMPLETE" 
+	/* << PBBPTR >> play back not completion	*/
+147,36,"********   INCOMPLETE !   ********"
+
+	/* << AGEMSGPTR >> preg age del w d	*/
+160,10,"AGEACCsj"
+	/* << MSGDCPTR >> preg data clear	*/
+161,26,"Effacement Donn\226es? O/N "
+	/* << TPTR >> user table	*/
+162,30,"****        liste abaque **** "
+	/* << LPTR >>	*/
+163,40,"standard#1     standard#2   utilisateur"
+	/* << UPTR >>	*/
+164,58,"mm     XXsXj \022Xs      XXsXj \022Xs      XXsXj \022Xs        mm "
+	/* << UTB0PTR >>	*/
+165,60,"PREMIER: SET,     SECOND:    SHIFT SET,    Entr\226e:   ESC    "
+166,18,"Page: Touche NEXT"
+	/* << UTB1PTR >> user table estimation	*/
+167,28,"* Evaluation AGE grossesse *"
+	/* << UTB2PTR >>	*/
+168,40,"Regl.Menu.:  (  )  **  *  /  +  -  \004  \005"
+	/* << UTB3PTR >>	*/
+169,68,"Variable  :  GSD  CRL  BPD  OFD  HC  FL  TBD  APBD  AC  GA  X  Y  Z"
+	/* << UTB4PTR >>	*/
+170,64,"Constante :  2  1234  1.234  1.234E-2  1.234E3  1.234E+10   etc."
+	/* << UTB5PTR >>	*/
+171,08,"MENU 2.1"
+172,08,"MENU 2.2"
+173,08,"/Util1  "
+174,08,"/Util2  "
+175,08,"  AGE = "
+	/* << UTB6PTR >>	*/
+176,32," Determination du poids foetal "
+
+	/* << PRST_SEL_EPTR >> protoc operation	*/
+177,08,"hihdhih "
+	/* << PRST_SEL_TPTR >>	*/
+178,28,"nogdnosgdirnhihdnonononosgda"
+	/* << OB_SEL_PTR >>	*/
+179,50,"12345678901234567890123456789012345678901234567890"
+180,51,"123456789012345678901234567890123456789012345678901"
+	/* << GYN_SEL_PTR >>	*/
+181,48,"123456789012345678901234567890123456789012345678"
+182,50,"12345678901234567890123456789012345678901234567890"
+183,11,"12345678901"
+
+	/* << UPROMPTPTR >> user prompt	*/
+200,24,"Boule et touche SET     "
+201,58,"S\226lect: Boule  Modif: NEXT ou SET + Boule  Page: IMAGE    "
+202,58,"M\226m. Texte:Touche TEXTE, Suppr.texte:pression longue CLEAR"
+203,58,"S\226lect:Boule et touche SET, Page:touche TEXTE, Fermer: ESC"
+206,58,"S\226lect menu: touche NEXT et touche SET, D\226plac. marq:Boule"
+210,22,"D\226plac. marq: Boule   "
+211,18,"Trac\226: Boule      "
+212,24,"D\226termination d'axe:    "
+213,58,"D\226plac. marq: Boule, Forme ellipse: touche SET et boule   "
+214,14,"Tracer cercle:"
+215,49,"D\226plac. marq: Boule, Fixer forme ellipse:tou. SET"
+216,30,"D\226termination axe de longueur:"
+217,32,"D\226termination axe de diam\233tre:  "
+218,30,"Calcul de l'acc\226l\226ration      "
+219,30,"Calcul de l'd\226c\226l\226ration      "
+220,58,"Forme:boule tracante,changer l'axe:NEXT,Rotation:angle/DR "
+221,30,"Deuxi\233me histogramme:CALIPER  "
+230,12,"D\226pla. marq:"
+231,30,"D\226termination premier axe:    "
+232,30,"D\226termination second axe :    "
+233,56,"S\226lect. param\233tre: tou. NEXT et tou. SET, Annul:tou. ESC"
+234,58,"D\226plac. Cercle: Boule, Grand: tou. NEXT, Petit: SHIFT+NEXT"
+235,36,"S\226lect. m\226thode:  NEXT et SET       "
+240,18,"D\226plac. poi.cycle:"
+241,28,"D\226termination de diam\233tre:  "
+242,22,"D\226plac. point mini.:  "
+243,52,"S\226lect. endorectal ou prostate:tou. NEXT et tou. SET"
+244,30,"Entrer nombre de pas [3 - 9] ?"
+245,18,"Fixer point gauch:"
+246,18,"Fixer point droit:"
+247,18,"Fixer point A:    "
+248,18,"Fixer point d\226par:"
+249,30,"D\226plac. point actuel: Boule   "
+250,14,"Fixer point B "
+251,14,"Fixer point C "
+252,14,"Fixer point D "
+253,14,"Fixer point E "
+254,14,"Fixer point F "
+255,43,"S\226lect. G/D: touche NEXT, M\226m: touche SET  "
+260,58,"S\226lect.Liste:tou. CLEAR, Suppr.Liste:tou. SET, Sortie: ESC"
+
+261,28,"Mesurer 1er quadrant        "
+262,28,"Mesurer 2\233me quadrant       "
+263,28,"Mesurer 3\233me quadrant       "
+264,28,"Mesurer 4\233me quadrant       "
+
+281,44,"Affich. picto. rep\233re enfant et rep\233re sonde"
+282,58,"D\226placer rep. de sonde. Pos:Boule,Dir:Ang. ou DR,enf.:NEXT"
+283,16,"Effacer picto.  "
+284,58,"Rappeler courbe DGC r\226gl\226e:AT1 ou AT2, Manuel:MAN <CTRL+D>"
+285,47,"M\226m. courbe DGC:S\226lect. AT1 ou AT2 ->touche SET"
+286,47,"S\226lect courbe post-trait.  (PP0 - PP5) <CTRL+P>"
+287,27,"Modif. courbe post-trait.  "
+288,38,"Diminuer niveaux gris(256-32-16-8-4-2)"
+289,21,"Affich. message Aide "
+
+291,58,"S\226lect. fonction ECG (A,M,s-d\226clench.,d-d\226clench.)<CTRL+G>"
+292,27,"R\226gler d\226lai de l'onde R   "
+293,20,"R\226gler Amplitude ECG"
+294,34,"R\226gler ligne guide biopsie<CTRL+V>"
+295,42,"Affich. profond. pour la guide de biopsie "
+296,37,"S\226lect. taille points guide de biops."
+297,29,"S\226lect. type biops.(ponction)"
+298,39,"Diminuer largeur image ou angle<CTRL+W>"
+299,38,"S\226lect. fonction m\226m. longue <CTRL+O> "
+
+305,52,"Entrer mode pagin. Touche SET -> Boule -> Touche ESC"
+306,50,"Entrer mode boucle. Touche SET->Boule->Touche ESC "
+307,40,"Stokage  Boule --> Touche SET           "
+308,40,"Entrer mode boucle. Boule --> Touche SET"
+309,40,"Entrer mode efface. Boule --> Touche SET"
+
+311,30,"S\226lect. trace Doppler <CTRL+N>"
+312,55,"S\226lect. donn\226es trac\226 (deux c\223t\226s ou c\223t\226 sup.)<CTRL+Q>"
+313,34,"S\226lect. polarit\226 spectre <CTRL+R> "
+314,27,"Histogramme Doppler<CTRL+T>"
+315,34,"Activ. fonction multi-TX <CTRL+U> "
+316,34,"S\226lect. courbe compression<CTRL+X>"
+317,31,"S\226lect. filtre Doppler <CTRL+Y>"
+318,41,"S\226lect. gel en mode BD <CTRL+Z>          "
+
+321,32,"Affich forme tumeur             "
+322,32,"Effacer forme tumeur            "
+
+332,26,"Application       <CTRL+F> "
+335,29,"Affich. prof. (Champ d'image)"
+336,22,"D\226calage image(D\226roul)"
+337,36,"R\226glage focale TX (simple-dble-quad)"
+338,22,"Densit\226 balay.acousti."
+339,26,"Renforce. contours<CTRL+E>"
+340,18,"Plage dynamique   "
+341,18,"Corr\226lation       "
+342,24,"Niv. \226mission acoustique"
+344,21,"Vitesse d\226fil.<CTRL+S"
+346,56,"R\226glage focale TX (simple-dble-quad)                    "
+
+355,18,"Fr\226quence Nyquist "
+357,22,"Correction d'angle    "
+359,28,"Fr\226quence r\226f\226rence Doppler "
+360,20,"Larg.vol.d'\226chantil."
+361,12,"Filtre paroi"
+362,24,"Niveau \226mission acoustique "
+
+	/* << OLMNPTR >> online menu B,M mode 1	*/
+400,08," Picto. "
+400,08," -Sonde "
+400,08," -Effac "
+400,08,"DDGC    "
+400,08," -M\226m.  "
+400,08,"PPost-T "
+400,08," -Cour. "
+400,08," -Gris  "
+400,08," Aide   "
+400,08,"       @"
+400,08,"       @"
+400,08,"       @"
+400,08,"       @"
+400,08,"       @"
+400,08,"       @"
+
+	/* online menu B,M mode 2	*/
+401,08,"GECG    "
+401,08," -D\226lai "
+401,08," -Gain  "
+401,08,"VR\226gBio "
+401,08," ProBio "
+401,08," PtsBio "
+401,08," SelBio "
+401,08,"WAng/la "
+401,08,"OM\226Long "
+401,08,"       @"
+401,08,"       @"
+401,08,"       @"
+401,08,"       @"
+401,08,"       @"
+401,08,"       @"
+	/* online menu B,M mode 3	*/
+402,08," Picto. "
+402,08," -Sonde "
+402,08," -Effac "
+402,08," LecMem@"
+402,08," -Pagin "
+402,08," -Boucl "
+402,08,"       @"
+402,08,"       @"
+402,08,"       @"
+402,08," MemRAM@"
+402,08," -Sauve "
+402,08," -Rappe "
+402,08," -Effac "
+402,08,"       @"
+402,08,"       @"
+	/* online menu D mode	*/
+403,08,"NTraceD "
+403,08,"QTraceU "
+403,08,"RInvers "
+403,08,"TSpectr "
+403,08,"UHPRF   "
+403,08,"XComp.C "
+403,08,"YFilt.D "
+403,08,"ZGel BD "
+403,08," Aide   "
+403,08,"       @"
+403,08,"       @"
+403,08,"       @"
+403,08,"       @"
+403,08,"       @"
+403,08,"       @"
+
+	/* << CALMNPTR >> calip menu display image   */
+410,10,"L Lung    "
+	/* Abdominal  B mode  */
+411,10,"  Distance"
+412,10,"T -Trace  "
+413,10,"  Surface "
+414,10,"C -Trace  "
+415,10,"D -Ellipse"
+416,10,"  Volume  "
+417,10,"I -El Simp"
+418,10,"J -Tr Simp"
+419,10,"K -El Sr-L"
+420,10,"L -Tr Sr-L"
+421,10,"M -Lon-Dia"
+422,10,"A Angle   "
+423,10,"H Histogrm"
+424,10,"Y Thyro\236de"
+	/* Abdominal  M mode  */
+425,10,"D Profond."
+426,10,"T Temps   "
+427,10,"H Freq.Car"
+428,10,"V V\226locit\226"
+	/* Abdominal  D mode  */
+429,10,"Q Frequenc"
+430,10,"T Temps   "
+431,10,"H Freq.Car"
+432,10,"V Vel.Sang"
+	/* OB/GYN  B mode  */
+433,10,"1  GSD    "
+434,10,"2  CRL    "
+435,10,"3  BPD    "
+436,10,"4  OFD    "
+437,10,"5  HC     "
+438,10,"6  FL     "
+439,10,"7  TBD    "
+440,10,"8  APBD   "
+441,10,"9  AC     "
+442,10,"0  CHD    "
+443,10,"  Circumf "
+444,10,"T -trace  "
+445,10,"G -4points"
+446,10,"O Rep\233re O"
+447,10,"E Age     "
+448,10,"W Poids   "
+449,10,"P Rapport "
+	/* Cardiac B mode  */
+450,10,"X  LVEDV  "
+451,10,"Y  LVESV  "
+452,10,"F Vsl Diam"
+453,10,"E AOD     "
+454,10,"I PI/RI   "
+	/* Cardiac M mode  */
+455,10,"1  AOD    "
+456,10,"2  AOEX   "
+457,10,"3  LA     "
+458,10,"4  RVEDD  "
+459,10,"5  IVS    "
+460,10,"6  AMP-DE "
+461,10,"7  LVPW   "
+462,10,"8  LVEDD  "
+463,10,"9  LVESD  "
+464,10,"0  Pent-EF"
+465,10,"F EDD.ESD "
+466,10,"E AOD     "
+	/* Cardiac D mode  */
+467,10,"C Bernou  "
+468,10,"G Berno-MX"
+469,10,"D Ac/Dc   "
+470,10,"S MVA     "
+471,10,"Z Valeur  "
+	/* Urology B mode  */
+472,10,"U Urine-R "
+473,10,"  V.Endo-R"
+474,10,"  -Radial "
+475,10,"  -Transve"
+476,10,"  -Longitu"
+477,10,"  V.Prost."
+478,10,"  -Diam\233t."
+479,10,"  -Hauteur"
+480,10,"  -Longue."
+481,10,"S V.fract."
+482,10,"P Rap Pros"
+483,10,"O Rap En-R"
+	/* Orthopedie B mode  */
+484,10,"G SonoGraf"
+485,10,"P Rapport "
+	/* caliper after guide  */
+486,10,"R Ratio   "
+	/* reserve  */
+487,10,"  ABD     "
+488,10,"  GYN/OB  "
+489,10,"  Cardio  "
+490,10,"  Urologie"
+491,10,"  Ortho.  "
+492,10,"F Vaisseau"
+493,10,"B AdjElli "
+494,10,"  Ov Art  "
+495,10,"L Lt PI/RI"
+496,10,"R Rt PI/RI"
+497,10,"E Cont Eq "
+498,10,"  GYN     "
+	/* GYN B mode  */
+499,10,"  Uterus  "
+500,10,"1 Ut L    "
+501,10,"2 Ut AP   "
+502,10,"3 Ut W    "
+503,10,"  L Ov    "
+504,10,"4 LOv L   "
+505,10,"5 LOvAP   "
+506,10,"6 LOv W   "
+507,10,"  R Ov    "
+508,10,"7 ROv L   "
+509,10,"8 ROvAP   "
+510,10,"9 ROv W   "
+511,10,"0 Endom   "
+512,10," Follic   "
+513,10,"L L-Fol # "
+514,10,"R R-Fol # "
+
+	/* << ITB1PTR >> initial condition	*/
+500,64," CHARGER    NOUV.    EFFACER    TRI     *DEFAUT   \034 MARCHE      "
+	/* << ITB2PTR >> initial condition	*/
+502,60,"S\226lection menu: Boule  Ex\226cuter: Touche SET                "
+502,60,"S\226lectionner article par boule et frapper touche SET       "
+502,60,"Entrer nom (et comment.) et frapper touche SET pour m\226m.   "
+502,60,"Charger les pr\226r\226glages et d\226buter nouvelle op\226ration      "
+502,60,"M\226moriser les nouveaux pr\226r\226glages                         "
+502,60,"Supprimer les pr\226r\226glages s\226lectionn\226s                     "
+502,60,"Trier par nom ou par sonde                                 "
+502,60,"Activer les pr\226r\226glages par d\226faut (chargement automatique)"
+502,60,"Sele. le chargement des pr\226r\226glages \232 la mise sous tension "
+502,60,"M\226moriser les nouveaux pr\226r\226glages                         "
+	/* << ITBTITLE >> initial condition title	*/
+510,50,"Comment   Nom       Sonde     Fr\226q.     Mode      "
+	/* << ITBINI  >> initial condition message	*/
+511,26,"          PREREGLAGE      "
+	/* << ITBCOM  >> initial condition standard comment	*/
+512,20,"Abdomen             "
+512,20,"GYN/OB.1            "
+512,20,"GYN/OB.2            "
+512,20,"GYN/OB.3            "
+512,20,"GYN/OB.4            "
+512,20,"GYN/OB.5            "
+512,20,"Thyro\236de            "
+512,20,"Rect./Prost.        "
+512,20,"Cardio.             "
+512,20,"Cardio.             "
+
+	/* << MN1PTR >> menu 1	*/
+	/*   0,  8, 32, 64,   96,110,124,148,  160,172,184,196,	*/
+	/* 208,220,232,244,  256,268,302,342,  374		*/
+602,08,"MENU 1 "
+602,24,"Clavier                "
+602,32,"Inscription en multi langues   "
+602,32,"Nom / Service de l'examinateur "
+602,14,"  Ligne sup.:"
+602,14,"  Ligne inf.:"
+602,24,"M\226moire 10 lignes      "
+602,12,"crtl+0    :"
+602,12,"crtl+1    :"
+602,12,"crtl+2    :"
+602,12,"crtl+3    :"
+602,12,"crtl+4    :"
+602,12,"crtl+5    :"
+602,12,"crtl+6    :"
+602,12,"crtl+7    :"
+602,12,"crtl+8    :"
+602,12,"crtl+9    :"
+602,34,"Edit Text/Annotation ...         "
+602,40,"Effacement autom. PICTOGRAMME  TEXTE : "
+602,32,"Interface RS232C ...          "
+602,74,"Cat\226gorie: Boule et touche SET  Pagin: touche MENU  Entr\226e: touche ESC   "
+	/* << MN2PTR >> menu 2	*/
+	/*   0,  8, 32, 34,   58, 94,108,142,  158,190,238,286,	*/
+	/* 318,350,382,414,  462,510,542,566,  582,606,646,683	*/
+604,08,"MENU 2 "
+604,24,"Application            "
+604,02," "
+604,24,"R\226glage de la minuterie"
+604,36,"R\226glage    : AN/MO/JR-HR:MN  D\226part"
+604,14,"Formater   : "
+604,34,"Commutation Heure d'\226t\226       :  "
+604,16,"Mesures        "
+604,32,"Activer caliper sur image fig\226e"
+604,48,"Age de gross. et date de naiss. pr\226visible ... "
+604,48,"Formule d'estimation du poids foetal ...       "
+604,32,"Unite poids foetal          :  "
+604,32,"D\226termin. \220ge fetal         :  "
+604,32,"Date accouchement           :  "
+604,32,"Vitesse d'action de boule   :  "
+604,48,"Points entre calipers en mesure de distance  : "
+604,48,"Trac\226 ellipso\236dal (points) affich\226 sur \226cran : "
+604,32,"Calcul d'age composite      :  "
+604,24,"Placer Caliper ...     "
+604,16,"Programmtion   "
+604,24,"M\226moire texte ...      "
+604,40,"Fonction de p\226dale [2] ...             "
+604,16,"Pictogramme ..."
+604,37,"Texte/anno. selon l'application ... "
+	/* << MN3PTR >> menu 3	*/
+	/*   0,  8, 32, 66,  100,134,168,202,  242,276,310,344,	*/
+	/* 378,412,446,480,  514,548,556,590,  644,698,734,781,	*/
+	/* 835,869,907	*/
+606,08,"MENU 3 "
+606,24,"Autre fouctions        "
+606,34,"Affichage d'\226tat du syst\233me    : "
+606,34,"Temps d'inactivit\226 du syst\233me  : "
+606,34,"\042Bip\042 actionn. de touche       : "
+606,34,"Inversion vid\226o du repro (Image) "
+606,34,"Inversion vid\226o du repro(Rapport)"
+606,40,"Fond d'image                   :     % "
+606,34,"Nombre d'image en B/M          : "
+606,34,"Rep\233re Temps-Profondeur        : "
+606,34,"Inversion vid\226o M              : "
+606,34,"Inversion vid\226o M/D            : "
+606,34,"Mode d'arr\221t en B+D            : "
+606,34,"Evaluation du spectre Doppler  : "
+606,34,"Affichage courbe DGC           : "
+606,34,"Touche TX active la boule      : "
+606,34,"S\226lect d'article auto avec boule "
+606,34,"Affohage d'intensit\226           : "
+606,08,"Sonde  "
+606,34,"Pos. d'image initiale Endo-V   : "
+606,54,"Fr\226quence initiale Endo-V      :                 MHz "
+606,54,"Fr\226quence initiale Endo-P      :                 MHz "
+606,34,"Plan initial Endo-P            : "
+606,49,"Fr\226quence initiale SI 3.5/5.0  :            MHz "
+606,54,"Fr\226quence initiale SI 5.0/7.5  :                 MHz "
+606,34,"Sonde initiale \232 mise en service "
+606,38,"Connexion sonde pour secteur duplex  "
+606,24,"Commandes sp\226ciales ..."
+	/* << MN4PTR >> menu 1-2	*/
+	/*   0, 10, 54, 74,   90,106,138,166	*/
+608,10,"MENU 1.2 "
+608,44,"Interface RS-232C          debit bauds   :"
+608,20,"    long. donnees :"
+608,16,"parite        :"
+608,16,"XOFF/XON      :"
+608,32,"Interface RS-232C Bloc         "
+608,28,"         de connexon      :"
+608,56,"Cat\226gorie: Boule et touche SET   Entree: Touche ESC    "
+	/* << MN5PTR >> menu 2-3	*/
+	/*   0, 10, 34, 58,   82,106	*/
+609,10,"MENU 2.3 "
+609,24,"Calipers ABD          :"
+609,24,"Calipers GYN/OB       :"
+609,24,"Calipers Cardio       :"
+609,24,"Calipers Urologie     :"
+609,24,"Calipers Ortho.       :"
+	/* << MN6PTR >> menu 2-5	*/
+        /*   0, 10, 52, 78,  104,130,148,164,  190,216,242,282, */
+	/* 298 total 356 */
+610,10,"MENU 2.5 "
+610,42,"Fonction de p\226dale [2] temps r\226el        "
+610,26,"Appareil repro           "
+610,26,"B / M curseur    <->   M "
+610,26,"B                <->  BM "
+610,18,"E-V,E-P fr\226quence"
+610,16,"E-P plane      "
+610,26,"porte Doppler/B  <->  pD "
+610,26,"curseur Dopp./B  <-> cwD "
+610,26,"B                <->  BD "
+610,40,"Fonction de p\226dale [2] en mode fig\226    "
+610,16,"Appareil repro : "
+610,58,"Fonction de p\226dale [1]  : Fig\226e                          "
+	/* << MN7PTR >> menu 2-6	*/
+	/*   0, 10, 46, 70,   94,118,142,166,  176,196,216,236,	*/
+	/* 256		*/
+612,10,"MENU 2.6 "
+612,36,"Touche PICTO -> Liste Picto.       "
+612,24,"Pictogrammes ABD      :"
+612,24,"Pictogrammes GYN/OB   :"
+612,24,"Pictogrammes Cardio   :"
+612,24,"Pictogrammes Urologie :"
+612,24,"Pictogrammes Ortho.   :"
+612,10,"MENU 2.7 "
+612,20,"Text/ann. ABD     :"
+612,20,"Text/ann. GYN/OB  :"
+612,20,"Text/ann. Cardio  :"
+612,20,"Text/ann. Urologie:"
+612,20,"Text/ann. Ortho.  :"
+	/* << MN8PTR >> menu 3-1	*/
+	/*   0, 10, 40, 70,  100,130,160,190,  220,250	*/
+614,10,"MENU 3.1 "
+614,30,"Configuration de syst\233me ...."
+614,30,"ECG test wave                "
+614,30,"Mire echelle de gris-1       "
+614,30,"Mire echelle de gris-2       "
+614,30,"Mire echelle de gris-3       "
+614,30,"Mire de hachures             "
+614,30,"Ecran totalement blanc       "
+614,30,"Information du syst\233me       "
+614,24,"Nom PCB            Ver."
+	/*		menu 3-1+	*/
+	/* 274,284,308,356,  404,436,468,508,  540,580	*/
+614,10,"MENU 3.1+"
+614,24,"Configuration de syst\233m"
+614,48,"D\226calage de position du plan E1 de sonde Endo-P"
+614,48,"D\226calage de position du plan E2 de sonde Endo-P"
+614,32,"R\226glage d'angle de sonde Endo-P"
+614,32,"Biopsie p\226rin\226ale diagnostique "
+614,40,"et ponction p\226rin\226ale th\226rapeutique   ":
+614,32,"R\226glage d'angle de sonde Endo-P"
+614,40,"Biopsie rectale diagnostique          :"
+614,48,"Position arr\221t de E2 \232 E1 sonde Endo-P   :     "
+	/* << MN9PTR >> menu 1-1, 2-4	*/
+	/*   0, 10, 58, 68,  116,142,196 */
+616,10,"MENU 1.1 "
+616,48,"Arrangement m\226moire texte de 1500 caract\233res   "
+616,10,"MENU 2.4 "
+616,48,"Arrangement d'un registre phrases de 1500caract"
+616,26,"Derniers       caract\233res"
+616,54,"Commande: SET --> Boule --> SET   Entr\226e: touche ESC "
+
+	/* << MNS1PTR >> menu 1 select	*/
+	/*   0, 48, 56	*/
+622,48,"ANGLAIS     ALLEMAND     FRANCAIS     ESPAGNOL "
+622,08,"OUI NON"
+622,18,"MARCHE  ARRET    "
+	/* << MNS2PTR >> menu 2 select	*/
+	/*   0, 56, 76, 94,  152,176,200,218	*/
+624,56,"Abdominal  GYN/OB  Cardio  Urologie  Orthop\226die        "
+624,20,"MO/JR/AN  JR/MO/AN "
+624,18,"+1heure -1heure  "
+624,58,"GSD  CRL  BPD  OFD  HC  FL  TBD  APBD  AC  CHD  FORMULA  "
+624,24,"grammes  lbs./oz.      "
+624,24,"Direkt  Pond\226r\226e       "
+624,18,"Bas  Moyen  Haut "
+624,40,"Moyenne-simple  Formule-r\226gressive    "
+	/* << MNS3PTR >> menu 3 select	*/
+	/*   0, 32, 64, 80,  104,128,134,146,  172	*/
+626,32,"ARRET  5min 10min  15min  20min"
+626,32,"ARRET 1  2  3  4  5  6  7  8  9"
+626,16,"Deux   S\226par\226  "
+626,24,"Partiel    Plein       "
+626,24,"ARRET  2sec  MARCHE    "
+626,06,"dB  %"
+626,14,"norm. renve."
+626,26,"Transverse  Longitudinal "
+626,26,"J4-J6,J3-J7  J4-J7,J3-J6 "
+	/* << MNS4PTR >> menu 1-2 select	*/
+	/*   0, 16	*/
+628,16,"auc. impa. pair"
+628,26,"SonoComp HP-LP FX80     "
+	/* << MNS5PTR >> menu 2-6 select	*/
+630,32,"[1] [2] [3] [4] [5] [6] [7] [8]"
+	/* << MNS8PTR >> annotation set, etc	*/
+	/*   0, 48, 62,102,  134,158	*/
+636,48,"Ajoute  Remplace  Ins\233re  Copie  Efface  Trie  "
+636,14,"Posi.-Patient "
+636,40,"ABD GYN/OB. Cardio Urologie Ortho.    "
+636,32,"Chargement texte annotations   "
+636,24,"Mot de passe           "
+636,32,"S\226lection du groupe d'anno.:  "
+
+
+	/* << ANNO1PTR >> annotation text	*/
+	/*	character size (120=106 + 14)	*/
+650,09,"Sagittal\013"
+650,11,"Transverse\013"
+650,08,"Coronal\013"
+650,14,"D\226cub. Lat. G\013"
+650,14,"D\226cub. Lat. D\013"
+650,11,"Supination\013"
+650,10,"Pronation\013"
+650,15,"Trendelenbourg\013"
+650,07,"Gauche\013"
+650,07,"Droit\013\012"
+650,14,"              "
+
+	/* << ANNO2PTR >> annotation text (ABD)	*/
+	/*	character size (350 = 317 + 33)	*/
+651,08,"abdomen\013"
+651,06,"aorte\013"
+651,16,"art\233re carotide\013"
+651,04,"CBD\013"
+651,11,"chol\226doque\013"
+651,16,"plexus choro\236de\013"
+651,08,"caduque\013"
+651,11,"diaphragme\013"
+651,09,"v\226sicule\013"
+651,06,"ilion\013"
+651,09,"intestin\013"
+651,05,"rein\013"
+651,05,"foie\013"
+651,05,"lobe\013"
+651,09,"pancr\226as\013"
+651,12,"veine porte\013"
+651,08,"portion\013"
+651,14,"art\233re r\226nale\013"
+651,08,"calices\013"
+651,09,"bassinet\013"
+651,13,"veine r\226nale\013"
+651,15,"art. m\226s. sup.\013"
+651,16,"veine m\226s. sup.\013"
+651,05,"rate\013"
+651,20,"veine sus-spl\226nique\013"
+651,08,"estomac\013"
+651,10,"surr\226nale\013"
+651,09,"thyro\236de\013"
+651,08,"trach\226e\013"
+651,08,"uret\233re\013"
+651,07,"ur\233tre\013"
+651,07,"vessie\013"
+651,12,"veine cave\013\012"
+651,33,"                                 "
+	/* << ANNO3PTR >> annotation text (OB/GYN) */
+	/*	character size (580 = 530 + 50)	*/
+652,19,"liquide amniotique\013"
+652,16,"tronc coeliaque\013"
+652,09,"cervelet\013"
+652,08,"cerveau\013"
+652,14,"cavit\226 du col\013"
+652,04,"col\013"
+652,08,"chorion\013"
+652,06,"colon\013"
+652,09,"duodenum\013"
+652,08,"embryon\013"
+652,14,"t\221te du f\226mur\013"
+652,06,"f\226mur\013"
+652,17,"membranes foetus\013"
+652,07,"fornix\013"
+652,05,"fond\013"
+652,17,"sac gestationnel\013"
+652,17,"grand trochanter\013"
+652,05,"t\221te\013"
+652,06,"coeur\013"
+652,08,"hum\226rus\013"
+652,06,"ilion\013"
+652,08,"ischion\013"
+652,05,"rein\013"
+652,19,"ventricule lat\226ral\013"
+652,05,"foie\013"
+652,05,"lobe\013"
+652,07,"poumon\013"
+652,07,"orbite\013"
+652,07,"ovaire\013"
+652,09,"pancr\226as\013"
+652,07,"bassin\013"
+652,09,"placenta\013"
+652,12,"veine porte\013"
+652,14,"art\233re r\226nale\013"
+652,08,"calices\013"
+652,09,"bassinet\013"
+652,15,"septum lucidum\013"
+652,15,"art. m\226s. sup.\013"
+652,16,"veine m\226s. sup.\013"
+652,09,"thalamus\013"
+652,17,"cordon ombilical\013"
+652,17,"veine ombilicale\013"
+652,08,"uret\233re\013"
+652,07,"ur\233tre\013"
+652,07,"vessie\013"
+652,15,"cavit\226 ut\226rine\013"
+652,15,"trompe ut\226rine\013"
+652,07,"ut\226rus\013"
+652,06,"vagin\013"
+652,11,"veine cave\013"
+652,09,"vert\233bre\013"
+652,16,"v\226s.ombilicale\013\012"
+652,50,"                                                  "
+	/* << ANNO4PTR >> annotation text (Cardiac) */
+	/*	character size (160= 35 + 125)	*/
+653,10,"Axe court\013"
+653,12,"Axe long 2C\013"
+653,13,"Axe long 4C\013\012"
+653,50,"                                                  "
+653,50,"                                                  "
+653,25,"                         "
+	/* << ANNO5PTR >> annotation text (Urology) */
+	/*	character size (150 = 135 + 15)	*/
+654,08,"capsule\013"
+654,16,"plexus choro\236de\013"
+654,09,"prostate\013"
+654,07,"rectum\013"
+654,14,"art\233re r\226nale\013"
+654,08,"calices\013"
+654,09,"bassinet\013"
+654,13,"veine r\226nale\013"
+654,18,"v\226sicule s\226minale\013"
+654,10,"testicule\013"
+654,08,"uret\233re\013"
+654,07,"ur\233tre\013"
+654,08,"vessie\013\012"
+654,15,"               "
+	/* << ANNO6PTR >> annotation text (Ortho.) */
+	/*	character size (130 = 112 + 18)	*/
+655,10,"ac\226tabule\013"
+655,12,"bord osseux\013"
+655,08,"embryon\013"
+655,14,"t\221te du f\226mur\013"
+655,17,"grand trochanter\013"
+655,05,"t\221te\013"
+655,11,"os iliaque\013"
+655,12,"art. hanche\013"
+655,08,"hum\226rus\013"
+655,06,"ilion\013"
+655,09,"ischion\013\012"
+655,18,"                  "
+
+	/* << ROMSGPTR >> status read out item	*/
+800,10,"FS 000 000"
+800,10,"SO 000 000"
+800,10,"EI 000 000"
+800,10,"FC 000 000"
+800,10,"FI 000 000"
+800,10,"RC 000 000"
+800,10,"DG 000 000"
+800,10,"CL 000 000"
+800,10,"IU 000 000"
+800,10,"GR 000 000"
+800,10,"VM 000 000"
+	/* << RDMSGPTR >>	*/
+801,10,"SO 000 000"
+801,10,"NQ 000 000"
+801,10,"nq 000 000"
+801,10,"AG 000 000"
+801,10,"          "
+801,10,"RE 000 000"
+801,10,"VE 000 000"
+801,10,"FP 000 000"
+801,10,"IU 000 000"
+801,10,"GR 000 000"
+801,10,"VM 000 000"
+
+	/* << LIDUPTR >>	*/
+810,22,"  DUPLEX   SMALL-PARTS"
+
+	/* << PHRASEPTR >> phrase liblaly	*/
+820,08,"NO SPACE"
+
+	/* << TXMSGPTR >> text mode overflow	*/
+830,62,"    D\226passement de capacit\226 !                                "
+
+	/* << DIAGPTR >> diag field	*/
+840,40,"ABD     GYN/OB  Cardio  UrologieOrtho.  "
+	/* << DIAGABLE >> diag enable	*/
+841,06,"bdpqxz"
+
+	/* << FLPY1PTR >> floppy message	*/
+850,16,"Erreur disque   "
+	/* << FLPY2PTR >>	*/
+851,26,"Protection \226criture       "
+	/* << FLPY3PTR >>	*/
+852,10,"COMPLETE  "
+	/* << FLPY4PTR >>	*/
+853,26,"Sauvegarde d'image ...   "
+	/* << FLPY5PTR >>	*/
+854,16,"Sauv. de donn\226e"
+	/* << IMGERR1PTR >> image data save/load	*/
+855,22,"   IMAGE NON FIGEE    "
+	/* << IMGERRPTR >>	*/
+856,18,"Disquette remplie"
+	/* << IMGMSGPTR >>	*/
+857,54,"NO.     Date     Heure           ID               Mode"
+	/* << IMGHELPPTR >>	*/
+858,50,"Entr\226e: Boule et touche SET   Annul: touche ESC   "
+	/* << FL_INSPTR >> FD insert message	*/
+859,26,"Ins\226rez disquette S.V.P. "
+	/* << DIRVOLPTR >> floppy directory disp.	*/
+860,16,"Ident.disquet.: "
+	/* << DIRNOENTPTR >>	*/
+861,16," pas d'entr\226e   "
+	/* << DIRNOFILEPTR >>	*/
+862,22,"Fichier non trouv\226   "
+	/* << DIRDELPTR >>	*/
+863,14,"SUPPR. FICHIER"
+	/* << DIRPAGEPTR >>	*/
+864,18,"page    (total   )"
+	/* << DIRHEADPTR >>	*/
+865,46,"Nom fichier    Taille(oct.) Date         Heure"
+	/* << DIRTYPEPTR >>	*/
+866,14,"Type disq.    "
+	/* << DIRTOTALPTR >>	*/
+867,14,"Total fichier "
+	/* << FDHELPPTR >>	*/
+868,20,"Sel.fichi:Boule trac"
+869,18,"En arr.  : ESC    "
+870,18,"Execute  : SET    "
+871,26,"Eff.fichi:SHIFT + CLEAR   "
+	/* << FDLABINPTR >>	*/
+872,46,"Entrer libell\226 disquette (11 caract\233res max.) "
+	/* << FDNAMEINPTR >>	*/
+873,46,"Entrer nom fichier    (11 caract\233res max.)    "
+	/* << FDFMTPTR >>	*/
+874,14,"FORMATAGE ... "
+	/* << FDSYSSVPTR >>	*/
+875,26,"SAUVE. programme syst\233me "
+	/* << FDLDDATPTR >>	*/
+876,16,"CHARGE  DONNEES "
+	/* << FDFLSELPTR >>	*/
+877,24,"S\226lectionner nom fichier"
+	/* << FDNMERRPTR >>	*/
+878,16,"ERREUR NOM FICH"
+	/* << FDPATPTR >>	*/
+879,08,"Patient"
+	/* << FDPREPTR >>	*/
+880,08,"Preset "
+	/* << FDMENUPTR >>	*/
+881,16,"UTILITAIRES DISQ"
+	/* << FDITEMPTR >>	*/
+	/*   0, 36, 72,108,  144,180,216,252,  288,324,360	*/
+882,36,"R\226pertoire                         "
+882,36,"Sauvegarder donn\226es patient        "
+882,36,"Sauvegarder donn\226es pr\226-s\226lectionn\226"
+882,36,"Charger donn\226es patient            "
+882,36,"Sauv. donn\226es image sans d. patient"
+882,36,"Sauv. donn\226es image avec d. patient"
+882,36,"Charger donn\226es pr\226-selectionn\266es  "
+882,36,"Charger donn\226es image              "
+882,36,"Formater                           "
+882,36,"Sauvegarder programme syst\233me      "
+882,36,"Charger programme syst\233me          " 
+	/* << FDSYSLDPTR >>	*/
+883,40,"SECURER DATES DE SYSTEME SUR DISKETTE  "
+883,08,"OUI\012NON\012"
+
+end
+
+/* PROTOCOL  1	*/
+begin,20,
+/*  0....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+.. */
+27 "  ID._______________________________*                               JR/MO/AN  "
+26 "                  CLASSIFICATION SONOGRAPHIQUE DE LA HANCHE         HR:MN:SC  "
+25 "  *__/__/__ ____________________________________________                      "
+24 "    TYPE:           \016:          \017:          D:          \020:          \021:        "
+23 "  FORMATION         BIEN      INSUFFIS.   INSUFFIS.    MAUVAIS     MAUVAIS    "
+22 "  OSSEUSE          G_  D_      G_  D_      G_  D_      G_  D_      G_  D_     "
+21 "                                                                              "
+20 "  ACETABULE        ANGUL.       ROND       ROND/        PLAT        PLAT      "
+19 "  OSSEUSE          G_  D_      G_  D_      PLAT        G_  D_      G_  D_     "
+18 "                                           G_  D_                             "
+17 "                                                                              "
+16 "  CARTILAGINE.     ETROIT      LARGE/      DEPLACE    DEPLACE     DEPLACE     "
+15 "  ACETABULE        G_  D_      CHEVAUCHANT  G_  D_    SANS ECHO               "
+14 "                               G_   D_                 G_  D_      G_ D_      "
+13 "                                                      ECHODENSE               "
+12 "                                                       G_  D_                 "
+11 "  TYPE DE HA    \016a:G_  D_   \017a:G_  D_    \020a:G_  D_                            "
+10 "                \016b:G_  D_   \017b:G_  D_    \020b:G_  D_                            "
+ 9 "                            \017c:G_  D_                                         "
+ 8 "                                                                              "
+ 7 "  ANGLE         GAUCHE  \360:    \245   \252:    \245                                     "
+ 6 "                DROITE  \360:    \245   \252:    \245                                     "
+ 5 "  COMPTE-RD.                                                                  "
+ 4 "    ____________________________________________________________              "
+ 3 "    ____________________________________________________________              "
+ 2 "    ____________________________________________________________              "
+ 1 "    ____________________________________________________________              "
+ 0 "_mprimer  Effacement : CTRL+Effac,  Entrer : SET,  Entr\226e : ESC               "
+/*  0....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+.. */
+end
+
+/* PROTOCOL  2	*/
+begin,21,
+/*  0....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+.. */
+27 "  ID._______________________________ *   (fix anno.)                JR/MO/AN  "
+26 "  D.NSC:__/__/__   AGE: xx        TAILLE: ____      POIDS: ___      HR:MN:SC  "
+25 "  GRAVID.: __     PARA: __   Avortements: __     Ectopics: __                 "
+24 "  PMU:  __/__/__      AGE  __s_j      ACC   __/__/__                          "
+23 "  GSD  /           N/D     XXsXj \022Xs                                          "
+22 "  CRL  /           N/D     XXsXj \022Xs                                          "
+21 "  BPD  /           N/D     XXsXj \022Xs                                          "
+20 "  OFD  /           N/D     XXsXj \022Xs                                          "
+19 "  HC   /           N/D     XXsXj \022Xs                                          "
+18 "  FL   /           N/D     XXsXj \022Xs                                          "
+17 "  TBD  /           N/D     XXsXj \022Xs                                          "
+16 "  APBD /           N/D     XXsXj \022Xs                                          "
+15 "  AC   /           N/D     XXsXj \022Xs                                          "
+14 "  CHD  /           N/D     XXsXj \022Xs                                          "
+13 "                                      PMU                                DNP  "
+12 "  VAL.MOYENNE:        \301\307\305  XXsXj      \301\303\303   JR/MO/AN                          "
+11 "                                                                              "
+10 "  CI                   xx    (74-83)                                          "
+ 9 "  HC/AC /Campbell       x.xx (    -    -    )                                 "
+ 8 "  FL/AC  x.xx   FL/BPD  x.xx   FL/HC  x.xx                                    "
+ 7 "  EFBW /                        FFC:  xxx B/m                                 "
+ 6 "  COMPTE-RD.:                                                                 "
+ 5 "  Biophysical Profile:    Fetal Tone:        _   _   _                        "
+ 4 "                          Fetal Breathing:   _   _   _                        "
+ 3 "                          Fetal Movement:    _   _   _                        "
+ 2 "                          Amniotic Fluid:    _   _   _                        "
+ 1 "                          Total Score:       xx                               "
+/* "    ____________________________________________________________              "*/
+ 0 "  _mprimer  Effacement : touche CTRL+Effac,  Entr\226e : touche ESC                "
+/*  0....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+.. */
+end
+
+/* PROTOCOL  3	*/
+begin,22,
+/*  0....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+.. */
+27 "  ID._______________________________ *                              DA/MO/YR  "
+26 "  DATE DE NAIS.:  __/__/__    TAILLE:  ___cm     POIDS:  ___kg      HR:MN:SC  "
+25 "  PS:  ___/___mmHg            FC:  ___B/m   SURFACE DE CORPS:     m\004          "
+24 "  RAISON P.L'EX. :  ________________________________________________________  "
+23 "  MESURES CARDIAQUES:                                                         "
+22 "   AOD  =    mm(21-44) LVPW =    mm( 6-12) IVS  =    mm( 6-12)  LVEDV=    ml  "
+21 "   AOEX =    mm        LVEDD=    mm(37-56) DEamp=    mm         LVESV=    ml  "
+20 "   LA   =    mm(18-39) LVESD=    mm(27-37) EFslope=    mm/s     SV   =    ml  "
+19 "   RVEDD=    mm( 9-26) FS   =    % (  >25)                      EFrac=    %   "
+18 "                                                                              "
+17 "  MVA:                 Pmax =    mmHg   A    =    cm\004                         "
+16 "                       Vmax =    cm/s   t/2  =    ms                          "
+15 "                                                                              "
+14 "  VAISSEAU:            A    =    mm\004    TAV  =    cm/s                        "
+13 "                       FR   =    ml/min RI=     PI=                           "
+12 "                                                                              "
+11 "  STENOSE AORTIQUE:    A2   =    mm\004    Vmax =    cm/s                        "
+10 "                       Pmax =    mmHg   Pmean=    mmHg                        "
+ 9 "  COMPTE-RD.:                                                                 "
+ 8 "    _________________________________________________                         "
+ 7 "    _________________________________________________                         "
+ 6 "    _________________________________________________                         "
+ 5 "    _________________________________________________                         "
+ 4 "    _________________________________________________                         "
+ 3 "    _________________________________________________                         "
+ 2 "    _________________________________________________                         "
+ 1 "    _________________________________________________                         "
+ 0 "  _mprimer  Effacement: touche CTRL+Effac, Entr\226e: ESC                          "
+/*  0....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+.. */
+end
+
+/* PROTOCOL  4	*/
+begin,23,
+/*  0....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+.. */
+27 "                    SONOGRAPHIE ENDORECTALE (SER)                   DA/MO/YR  "
+26 "  ID._______________________________*                               HR:MN:SC  "
+25 "  *****Evaluation :  __________________________________________________*****  "
+24 "  *****           :  __________________________________________________*****  "
+23 "      Diam\233tre de l'objet  (cm):                     *volume (cm\005)            "
+22 "  radial:       transvers.:        longitud.:        *ELL:        SM:         "
+21 "      localisation du bilan:                                                  "
+20 "    orientation: de        \232                bord aboral (cm):                 "
+19 "                                                                              "
+18 "#                                                                             "
+17 "                                                                              "
+16 "#                                                                             "
+15 "                                                                              "
+14 "#                                                                             "
+13 "                                                                              "
+12 "#                                                                             "
+11 "                                                                              "
+10 "#                                                                             "
+ 9 "   \226chog\226n\226it\226:      _ypo-\226chog\233ne   _so-\226chog\233ne   _yper-\226chog\233ne   _iffus   "
+ 8 "  stade SER (pour tum.mal.)      uT__ Gl (suspic. de malignit\226): __           "
+ 7 "  \226chog\226n. des ganglions lymph.: _ypo-\226cho _so-\226cho    _yper-\226cho             "
+ 6 "  bilan SER :                                                                 "
+ 5 "    ________________________________________________________________________  "
+ 4 "    ________________________________________________________________________  "
+ 3 "    ________________________________________________________________________  "
+ 2 "    ________________________________________________________________________  "
+ 1 "         \226chographiste: _____     images: __     vid\226o: ______                "
+ 0 "  _mprimer  Effacement : touche CTRL+Effac, Entr\226e : touche ESC                 "
+/*  0....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+.. */
+end
+
+/* PROTOCOL  5	*/
+begin,24,
+/*  0....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+.. */
+27 "              SONOGRAPHIE PROSTATIQUE TRANSRECTALE (SPT)            DA/MO/YR  "
+26 "  ID._______________________________*                               HR:MN:SC  "
+25 "  *****Evaluation :  __________________________________________________*****  "
+24 "  *****           :  __________________________________________________*****  "
+23 "  Examen digital:   suspicion de malignit\226:   _on  _ui  _auche  _roite        "
+22 "                          TNM clinique        :   ___________                 "
+21 "  SPT: prostate                                                               "
+20 "  agrandissement:  _on  _ui  _ym\226trique  _auche  _roite                       "
+19 "  capsule     :  _ndemne _ompue                                               "
+18 "  \226chog\226n\226it\226:   _ormal  _ypo-\226chog\233ne  _so-\226cho  _yper-\226cho  _iffus          "
+17 "    1. suspicion de carcinome: _on _ui uT__                                   "
+16 "    2. ad\226nome               : _on _ui   3. prostatique: _on _ui              "
+15 "  dimension (cm):largeur:      haut.:      long.:       *vol    (cm\005)         "
+14 "     v\226sicules s\226minales:                               *ELL:       SM:       "
+13 "  agrandissement:  _on  _ui  _ym\226trique  _auche  _roite  _trophique           "
+12 "  localisation                                                                "
+11 "  du bilan:                                                                   "
+10 "                                                                              "
+ 9 "#                                                                             "
+ 8 "                                                                              "
+ 7 "#                                                                             "
+ 6 "                                                                              "
+ 5 "  bilan :                                                                     "
+ 4 "    ________________________________________________________________________  "
+ 3 "    ________________________________________________________________________  "
+ 2 "    ________________________________________________________________________  "
+ 1 "  \226chographiste:_____   images: __   vid\226o: ______   ponction:  ______        "
+ 0 "  _mprimer  Effacement : touche CTRL+Effac,  Entr\226e : touche ESC                "
+/*  0....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+.. */
+end
+
+END

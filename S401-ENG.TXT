@@ -1,0 +1,1044 @@
+BEGIN
+
+begin
+	/* << UNITPTR >> caliper unit	*/
+100,50," mm   mm   cm\004  cm\005  mm   s    B/m mm/s  kHz  s   "
+101,40," B/m cm/s cm/s       \245    ml   mm\004  mm\005  "
+	/* << MIPTR >> caliper measure mark	*/
+111,18," DLAVDTHVFTHVVI\360"
+	/* << ANGMSGPTR >> caliper angle graph	*/
+112,42,"Sonometer nach GRAF               WEEKS   "
+113,42,"   35   40   45   50   55   60   65   70\245\360"
+118,42,"   80   75   70   65   60   55   50   45\245\252"
+119,42,"      CRITICAL                            "
+120,42,"        ZONE                              "
+	/* << LABELPTR >> caliper label set up	*/
+124,28,"Enter label in 4 characters."
+	/* << EPCPTR >> ENDO_P caliper */
+126,22,"  Rectum     Prostate "
+	/* << ABEMSGPTR >> preg abelage data disp.	*/
+127,10,"MEMORY   "
+
+	/* << PB2PTR >> play back	*/
+140,16,"Enter CODE  ????"
+	/* << PB3PTR >> play back	*/
+141,42,"MODE ?      [ B ]  [ M ]  [ D ]          "
+	/* << PB6PTR >> play back width	*/
+142,32,"                 WIDTH=???mm  "
+	/* << PB7PTR >> play back depth	*/
+143,32,"                 DEPTH=???mm  "
+	/* << PB8PTR >> play back sweep	*/
+144,32,"                 SWEEP=??.?sec"
+	/* << PB9PTR >> play back frequency	*/
+145,32,"             FREQUENCY=??.?KHz"
+145,32,"              VELOCITY=??.?m/s"
+145,24,"Enter DOPPLER ANGLE  00"
+	/* << PBAPTR >> play back completion	*/
+146,36,"* PLAYBACK CALIBRATION COMPLETED *" 
+	/* << PBBPTR >> play back not completion	*/
+147,36,"********  NOT COMPLETED !  *******"
+
+	/* << AGEMSGPTR >> preg age del w d	*/
+160,10,"AGEDELwd"
+	/* << MSGDCPTR >> preg data clear	*/
+161,26,"Data Clear?  Y/N        "
+	/* << TPTR >> user table	*/
+162,30,"******      table list ****** "
+	/* << LPTR >>	*/
+163,40,"standard#1     standard#2     user's   "
+	/* << UPTR >>	*/
+164,58,"mm     XXwXd \022Xw      XXwXd \022Xw      XXwXd \022Xw        mm "
+	/* << UTB0PTR >>	*/
+165,60,"PRIMARY: SET key, SECONDARY: SHIFT SET key, Return: ESC key "
+166,18,"Paging : NEXT key"
+	/* << UTB1PTR >> user table estimation	*/
+167,28,"*** Fetal age estimation ***"
+	/* << UTB2PTR >>	*/
+168,40,"Operator  :  (  )  **  *  /  +  -  \004  \005"
+	/* << UTB3PTR >>	*/
+169,68,"Variable  :  GSD  CRL  BPD  OFD  HC  FL  TAD  APAD  AC  GA  X  Y  Z"
+	/* << UTB4PTR >>	*/
+170,64,"Constant  :  2  1234  1.234  1.234E-2  1.234E3  1.234E+10   etc."
+	/* << UTB5PTR >>	*/
+171,08,"MENU 2.1"
+172,08,"MENU 2.2"
+173,08,"/User1  "
+174,08,"/User2  "
+175,08,"  AGE = "
+	/* << UTB6PTR >>	*/
+176,32,"*** Fetal weight estimation ***"
+
+	/* << PRST_SEL_EPTR >> protoc operation	*/
+177,08,"HIHDHIH "
+	/* << PRST_SEL_TPTR >>	*/
+178,28,"NYLRNYSLRIDNHIHDNYNYNYNYSLRA"
+	/* << OB_SEL_PTR >>	*/
+179,50,"012012012012APLRFLMNPC0123123NOPVFFTBOAPLLRPANPANP"
+180,51,"ANPANVNAVNAVNAVNAVNAVNAVNAVNAVNAVNAVNFVNSMLRNCSCMS "
+	/* << GYN_SEL_PTR >>	*/
+/* 181,50,"YNYNVNAFGMBSPONVNHFPMNVNNISFSCCOYNSMLCECMVNNSCNSMN" */
+181,48,"YNYNVNAFGMBONVNHFPMNVNNISFSCCOYNSMLCECMVNNSCNSMN"
+182,50,"MMSVNNSCNSMNMMSVNSPPCHSSMSCMSYNVNUURHOVNSPPCHSSMSC"
+182,11,"MSYNVNUURHO"
+
+	/* << UPROMPTPTR >> user prompt	*/
+200,24,"Track-ball and SET key  "
+201,58,"Select:Track-ball,Change:NEXT or SET+Track-ball,Page:IMAGE"
+202,58,"TEXT memory: TEXT key, Delete all: long touch of CLEAR key"
+203,58,"Select:Track-ball & SET key, Page:TEXT key, Close:ESC key "
+206,58,"Menu select: NEXT key and SET key, Move mark: Track-ball  "
+210,22,"Move mark: Track-ball "
+211,18,"Trace: Track-ball "
+212,24,"Determination of axis:  "
+213,58,"Move mark: Track-ball, Ellipse shape: SET key & Track-ball"
+214,14,"Circle trace: "
+215,49,"Move mark: Track-ball, Fix Ellipse shape: SET key"
+216,30,"Determination of length axis: "
+217,32,"Determination of diameter axis: "
+218,30,"Determination of acceleration "
+219,30,"Determination of deceleration "
+220,58,"Shape:Track-ball, Change axis:NEXT, Rotation:Angle/DR     "
+221,30,"Second histogram: Caliper key "
+230,12,"Move mark:  "
+231,30,"Determination of first axis:  "
+232,30,"Determination of second axis: "
+233,56,"Parameter select: NEXT key and SET key, Cancel: ESC key "
+234,58,"Move circle:Track-ball, Large:NEXT key, Small:Shift+NEXT  "
+235,36,"Method select: NEXT key and SET key "
+240,18,"Move cycle point: "
+241,28,"Determination of diameter:  "
+242,22,"Move to minimum point:"
+243,52,"Select endorectal or prostate: NEXT key and SET key "
+244,30,"Enter step number [ 3 - 9 ] ? "
+245,18,"Set left point:   "
+246,18,"Set right point:  "
+247,18,"Set point A:      "
+248,18,"Set start point:  "
+249,30,"Move current point: Track-ball"
+250,14,"Set point B:  "
+251,14,"Set point C:  "
+252,14,"Set point D:  "
+253,14,"Set point E:  "
+254,14,"Set point F:  "
+255,43,"L/R select: NEXT key, Store memory: SET key"
+260,58,"Select list: Clear key, Delete list: SET key, Exit:ESC key"
+
+261,28,"Measure first quadrant      "
+262,28,"Measure second quadrant     "
+263,28,"Measure third quadrant      "
+264,28,"Measure fourth quadrant     "
+
+281,44,"Display pictogram, baby mark and probe mark."
+282,58,"Replace probe mark. Posi: TB  Dir: Angle or DR  Baby: NEXT"
+283,16,"Erase pictogram."
+284,58,"Recall preset DGC curve: AT1 or AT2,  Manual: MAN <CTRL+D>"
+285,47,"Store DGC curve:  Select AT1 or AT2  -> SET key"
+286,47,"Select post process curve. (PP0 - PP5) <CTRL+P>"
+287,27,"Change post process curve. "
+288,38,"Decrease gray level. (256-32-16-8-4-2)"
+289,21,"Display Help message."
+
+291,58,"Select ECG function. (off, on, s-trig., d-trig.) <CTRL+G> "
+292,27,"Set delay time from R-wave."
+293,20,"Set gain of ECG-amp."
+294,34,"Adjust biopsy guide line. <CTRL+V>"
+295,42,"Enable depth display for biopsy guide line"
+296,37,"Select dot size for biopsy guide line"
+297,29,"Select biopsy(puncture) type."
+298,39,"Decrease image width or angle. <CTRL+W>"
+299,38,"Select long-storage function. <CTRL+O>"
+
+305,52,"Enter Browse-mode. SET key -> TB -> ESC key <CTRL+C>"
+306,50,"Enter Loop-mode. SET key -> TB -> ESC key <CTRL+C>"
+307,40,"Memory Saving.    TB -> SET key <CTRL+I>"
+308,40,"Memory Recalling. TB -> SET key <CTRL+C>"
+309,40,"Memory Erasing.   Track-ball -> SET key "
+
+311,30,"Select Doppler trace. <CTRL+N>"
+312,55,"Select trace data. ( both side or upper side ) <CTRL+Q>"
+313,34,"Select spectrum polarity. <CTRL+R>"
+314,27,"Doppler histogram. <CTRL+T>"
+315,34,"Enable multi-TX function. <CTRL+U>"
+316,34,"Select Compression curve. <CTRL+X>"
+317,31,"Select Doppler filter. <CTRL+Y>"
+318,41,"Select freeze action in BD mode. <CTRL+Z>"
+
+321,32,"Display Tumor pattern           "
+322,32,"Erase Tumor pattern             "
+
+332,26,"Application.      <CTRL+F>"
+335,29,"Display depth(Field of View)."
+336,22,"Image offset (Scroll)."
+337,36,"TX focus control. (single-dual-quad)"
+338,22,"Acoustic scan density."
+339,26,"Edge enhancement. <CTRL+E>"
+340,18,"Dynamic range.    "
+341,18,"Frame averaging.  "
+342,24,"Acoustic transmit level."
+344,21,"Sweep speed. <CTRL+S>"
+346,56,"TX focus control. (single-dual-quad)                    "
+
+355,18,"Nyquist frequency."
+357,22,"Angle correction.     "
+359,28,"Doppler reference frequency."
+360,20,"Sampling gate width."
+361,12,"Wall filter."
+362,24,"Acoustic transmit level."
+
+	/* << OLMNPTR >> online menu B,M mode 1	*/
+400,08," Picto. "
+400,08," -Probe "
+400,08," -Erase "
+400,08,"DDGC    "
+400,08," -Store "
+400,08,"PPost-P "
+400,08," -Curve "
+400,08," -Gray  "
+400,08," Help   "
+400,08,"       @"
+400,08,"       @"
+400,08,"       @"
+400,08,"       @"
+400,08,"       @"
+400,08,"       @"
+
+	/* online menu B,M mode 2	*/
+401,08,"GECG    "
+401,08," -Delay "
+401,08," -Gain  "
+401,08,"VBioAdj "
+401,08," BioNum "
+401,08," BioDot "
+401,08," BioSel "
+401,08,"WAng/Wd "
+401,08,"OLongSt "
+401,08,"       @"
+401,08,"       @"
+401,08,"       @"
+401,08,"       @"
+401,08,"       @"
+401,08,"       @"
+	/* online menu B,M mode 3	*/
+402,08," Picto. "
+402,08," -Probe "
+402,08," -Erase "
+402,08," LSplay@"
+402,08," -Brows "
+402,08," -Loop  "
+402,08,"       @"
+402,08,"       @"
+402,08,"       @"
+402,08," RAMstr@"
+402,08," -Save  "
+402,08," -Recal "
+402,08," -Erase "
+402,08,"       @"
+402,08,"       @"
+	/* online menu D mode	*/
+403,08,"NDTrace "
+403,08,"QUTrace "
+403,08,"RInvert "
+403,08,"TSpectr "
+403,08,"UHPRF   "
+403,08,"XCmpr-C "
+403,08,"YD-Filt "
+403,08,"ZBD-Frz "
+403,08," Help   "
+403,08,"       @"
+403,08,"       @"
+403,08,"       @"
+403,08,"       @"
+403,08,"       @"
+403,08,"       @"
+
+	/* << CALMNPTR >> calip menu display image   */
+410,10,"L Lung    "
+	/* Abdominal  B mode  */
+411,10,"  Distance"
+412,10,"T -Trace  "
+413,10,"  Area    "
+414,10,"C -Trace  "
+415,10,"D -Ellipse"
+416,10,"  Volume  "
+417,10,"I -El Simp"
+418,10,"J -Tr Simp"
+419,10,"K -El Ar-L"
+420,10,"L -Tr Ar-L"
+421,10,"M -Len-Dia"
+422,10,"A Angle   "
+423,10,"H Histogrm"
+424,10,"Y Thyroid "
+	/* Abdominal  M mode  */
+425,10,"D Depth   "
+426,10,"T Time    "
+427,10,"H Heart-Rt"
+428,10,"V Velocity"
+	/* Abdominal  D mode  */
+429,10,"Q Freq    "
+430,10,"T Time    "
+431,10,"H Heart-Rt"
+432,10,"V Flow-Vel"
+	/* OB/GYN  B mode  */
+433,10,"1  GSD    "
+434,10,"2  CRL    "
+435,10,"3  BPD    "
+436,10,"4  OFD    "
+437,10,"5  HC     "
+438,10,"6  FL     "
+439,10,"7  TAD    "
+440,10,"8  APAD   "
+441,10,"9  AC     "
+442,10,"0  CHD    "
+443,10,"  Circumf "
+444,10,"T -trace  "
+445,10,"G -4points"
+446,10,"O O-marker"
+447,10,"E Age     "
+448,10,"W Weight  "
+449,10,"P Report  "
+	/* Cardiac B mode  */
+450,10,"X  LVEDV  "
+451,10,"Y  LVESV  "
+452,10,"F Vsl Diam"
+453,10,"E AOD     "
+454,10,"I PI/RI   "
+	/* Cardiac M mode  */
+455,10,"1  AOD    "
+456,10,"2  AOEX   "
+457,10,"3  LA     "
+458,10,"4  RVEDD  "
+459,10,"5  IVS    "
+460,10,"6  DE-AMP "
+461,10,"7  LVPW   "
+462,10,"8  LVEDD  "
+463,10,"9  LVESD  "
+464,10,"0  EF-slop"
+465,10,"F EDD.ESD "
+466,10,"E AOD     "
+	/* Cardiac D mode  */
+467,10,"C Bernou  "
+468,10,"G Berno-MX"
+469,10,"D Ac/Dc   "
+470,10,"S MVA     "
+471,10,"Z Value   "
+	/* Urology B mode  */
+472,10,"U R-Urine "
+473,10,"  EndoRe-V"
+474,10,"  -Radial "
+475,10,"  -Transve"
+476,10,"  -Longitu"
+477,10,"  Prost.-V"
+478,10,"  -Diamete"
+479,10,"  -Height "
+480,10,"  -Length "
+481,10,"S StepWi-V"
+482,10,"P Pro Repo"
+483,10,"O E-R Repo"
+	/* Orthopedie B mode  */
+484,10,"G SonoGraf"
+485,10,"P Report  "
+	/* caliper after guide  */
+486,10,"R Ratio   "
+	/* reserve  */
+487,10,"  ABD     "
+488,10,"  OB/GYN  "
+489,10,"  Cardiac "
+490,10,"  Urology "
+491,10,"  Ortho.  "
+492,10,"F Vessel  "
+493,10,"B AdjElli "
+494,10,"  Ov Art  "
+495,10,"L Lt PI/RI"
+496,10,"R Rt PI/RI"
+497,10,"E Cont Eq "
+498,10,"  GYN     "
+	/* GYN B mode  */
+499,10,"  Uterus  "
+500,10,"1 Ut L    "
+501,10,"2 Ut AP   "
+502,10,"3 Ut W    "
+503,10,"  L Ov    "
+504,10,"4 LOv L   "
+505,10,"5 LOvAP   "
+506,10,"6 LOv W   "
+507,10,"  R Ov    "
+508,10,"7 ROv L   "
+509,10,"8 ROvAP   "
+510,10,"9 ROv W   "
+511,10,"0 Endom   "
+512,10," Follic   "
+513,10,"L L-Fol # "
+514,10,"R R-Fol # "
+
+
+	/* << ITB1PTR >> initial condition	*/
+500,64,"   LOAD   NEW/EDIT   DELETE     SORT    *DEFAULT  \034POWER-ON     "
+	/* << ITB2PTR >> initial condition	*/
+502,60,"Menu selection: Track-ball  Execute: SET key               "
+502,60,"Select item by track-ball and hit SET key.                 "
+502,60,"Enter name ( and comment ) and hit SET key to store memory."
+502,60,"Load selected preset and start new operation.              "
+502,60,"Store new preset to memory.                                "
+502,60,"Delete selected preset.                                    "
+502,60,"Sort by name or probe.                                     "
+502,60,"Set default preset. ( auto-load )                          "
+502,60,"Select the preset load at power-on.                        "
+502,60,"Replace preset and store to memory.                        "
+	/* << ITBTITLE >> initial condition title	*/
+510,50,"Comment   Name        Probe   Freq.     Mode      "
+	/* << ITBINI  >> initial condition message	*/
+511,26,"               PRESET     "
+	/* << ITBCOM  >> initial condition standard comment	*/
+512,20,"Abdomen             "
+512,20,"OB/GYN.1            "
+512,20,"OB/GYN.2            "
+512,20,"OB/GYN.3            "
+512,20,"OB/GYN.4            "
+512,20,"OB/GYN.5            "
+512,20,"Thyroid             "
+512,20,"Rect/Prost          "
+512,20,"Cardiac             "
+512,20,"Cardiac             "
+
+	/* << MN1PTR >> menu 1	*/
+	/*   0,  8, 32, 64,   96,110,124,148,  160,172,184,196,	*/
+	/* 208,220,232,244,  256,268,302,342,  374		*/
+602,08,"MENU 1 "
+602,24,"Keyboard - Annotation  "
+602,32,"Multi-lingual annotation       "
+602,32,"Fixed annotation               "
+602,14,"  upper line:"
+602,14,"  lower line:"
+602,24,"10-line memory         "
+602,12,"ctrl+0    :"
+602,12,"ctrl+1    :"
+602,12,"ctrl+2    :"
+602,12,"ctrl+3    :"
+602,12,"ctrl+4    :"
+602,12,"ctrl+5    :"
+602,12,"ctrl+6    :"
+602,12,"ctrl+7    :"
+602,12,"ctrl+8    :"
+602,12,"ctrl+9    :"
+602,34,"Edit Text/Annotation ...         "
+602,40,"Automatic TEXT PICTOGRAM erasure :     "
+602,32,"External RS-232C port ...     "
+602,74,"Category : Track-ball  and SET key   Paging : MENU key  Return : ESC key "
+	/* << MN2PTR >> menu 2	*/
+	/*   0,  8, 32, 34,   58, 94,108,142,  158,190,238,286,	*/
+	/* 318,350,382,414,  462,510,542,566,  582,606,646,683	*/
+604,08,"MENU 2 "
+604,24,"Application            "
+604,02," "
+604,24,"Clock                  "
+604,36,"Setting    : YR/MO/DA-HR:MN  Start "
+604,14,"Format     : "
+604,34,"Daylight saving time adjustment :"
+604,16,"Measurement    "
+604,32,"Activate caliper on freeze    :"
+604,48,"Fetal age estimation table and formula ...     "
+604,48,"Fetal weight estimation formula ...            "
+604,32,"Fetal weight unit        :     "
+604,32,"Fetal age measurement    :     "
+604,32,"Delivery date estimation :     "
+604,32,"Track-ball action speed  :     "
+604,48,"Dots between calipers in distance measurement: "
+604,48,"Ellipsoid trace(dots) displayed on screen    : "
+604,32,"Composite age calculation:     "
+604,24,"Caliper Set ...        "
+604,16,"Programming    "
+604,24,"Phrase library ...     "
+604,40,"Footswitch [2] configuration ...       "
+604,16,"Pictogram ...  "
+604,37,"Text/Annotation by Application ...  "
+	/* << MN3PTR >> menu 3	*/
+	/*   0,  8, 32, 66,  100,134,168,202,  242,276,310,344,	*/
+	/* 378,412,446,480,  514,548,556,590,  644,698,732,781,	*/
+	/* 835,869,907	*/
+606,08,"MENU 3 "
+606,24,"Other functions        "
+606,34,"System status display          : "
+606,34,"System inactivity timeout      : "
+606,34,"Beep volume                    : "
+606,34,"Hardcopy video invert (Image)  : "
+606,34,"Hardcopy video invert (Report) : "
+606,40,"Background level               :     % "
+606,34,"Number of B frames in B/M mode : "
+606,34,"Time-Depth marker              : "
+606,34,"M video invert                 : "
+606,34,"M/D video invert               : "
+606,34,"Freeze action in B+D mode      : "
+606,34,"Doppler spectrum evaluation    : "
+606,34,"DGC curve display              : "
+606,34,"TX key enables track-ball      : "
+606,34,"Auto item select w/ track-ball : "
+606,34,"Tx power display               : "
+606,08,"Probe  "
+606,34,"Endo-V initial Up/Down         : "
+606,54,"Endo-V initial frequency       :                 MHz "
+606,54,"Endo-P initial frequency       :                 MHz "
+606,34,"Endo-P initial plane           : "
+606,49,"SI 3.5/5.0 initial frequency   :            MHz "
+606,54,"SI 5.0/7.5 initial frequency   :                 MHz "
+606,34,"Initial probe upon power-up    : "
+606,38,"Probe connection of Sector Duplex :  "
+606,24,"Special commands ...   "
+	/* << MN4PTR >> menu 1-2	*/
+	/*   0, 10, 54, 74,   90,106,138,166	*/
+608,10,"MENU 1.2 "
+608,44,"External RS-232C port      baud rate     :"
+608,20,"    data length   :"
+608,16,"parity        :"
+608,16,"XOFF/XON      :"
+608,32,"External RS-232C port          "
+608,28,"   connecting device      :"
+608,56,"Category : Track-ball and  SET key   Return : ESC key  "
+	/* << MN5PTR >> menu 2-3	*/
+	/*   0, 10, 34, 58,   82,106	*/
+609,10,"MENU 2.3 "
+609,24,"ABD      Calipers     :"
+609,24,"OB/GYN   Calipers     :"
+609,24,"Cardiac  Calipers     :"
+609,24,"Urology  Calipers     :"
+609,24,"Ortho.   Calipers     :"
+	/* << MN6PTR >> menu 2-5	*/
+        /*   0, 10, 52, 78,  104,130,148,164,  190,216,242,282, */
+	/* 298 total 356 */
+610,10,"MENU 2.5 "
+610,42,"Footswitch [2] function in real-time mode"
+610,26,"Hardcopy device          "
+610,26,"B with M cursor  <->   M "
+610,26,"B                <->  BM "
+610,18,"E-V,E-P frequency"
+610,16,"E-P plane      "
+610,26,"B with D gate    <->  pD "
+610,26,"B with D cursor  <-> cwD "
+610,26,"B                <->  BD "
+610,40,"Footswitch [2] function in frozen mode "
+610,16,"Hardcopy device"
+610,58,"Footswitch [1] function : Freeze / Unfreeze control only "
+	/* << MN7PTR >> menu 2-6	*/
+	/*   0, 10, 46, 70,   94,118,142,166,	176,196,216,236,  */
+	/* 256				*/
+612,10,"MENU 2.6 "
+612,36,"PICTO key -> Picto. List           "
+612,24,"ABD      Pictograms   :"
+612,24,"OB/GYN   Pictograms   :"
+612,24,"Cardiac  Pictograms   :"
+612,24,"Urology  Pictograms   :"
+612,24,"Ortho.   Pictograms   :"
+612,10,"MENU 2.7 "
+612,20,"ABD     Text/anno.:"
+612,20,"OB/GYN  Text/anno.:"
+612,20,"Cardiac Text/anno.:"
+612,20,"Urology Text/anno.:"
+612,20,"Ortho.  Text/anno.:"
+	/* << MN8PTR >> menu 3-1	*/
+	/*   0, 10, 40, 70,  100,130,160,190,  220,250	*/
+614,10,"MENU 3.1 "
+614,30,"System configuration ...     "
+614,30,"ECG test wave                "
+614,30,"Gray scale test pattern-1    "
+614,30,"Gray scale test pattern-2    "
+614,30,"Gray scale test pattern-3    "
+614,30,"Cross-hatch test pattern     "
+614,30,"Full white screen            "
+614,30,"System information           "
+614,24,"PCB Name           Ver."
+	/*		menu 3-1+	*/
+	/* 274,284,308,356,  404,436,468,508,  540,580	*/
+614,10,"MENU 3.1+"
+614,24,"System configuration   "
+614,48,"Endo-P probe E1 plane position offset    :     "
+614,48,"Endo-P probe E2 plane position offset    :     "
+614,32,"Endo-P probe angle adjustment  "
+614,32,"diagnostic perineal biopsy and "
+614,40,"therapeutic perineal puncture         :"
+614,32,"Endo-P probe angle adjustment  "
+614,40,"diagnostic rectal biopsy              :"
+614,48,"Endo-P probe stop position from E2 to E1 :     "
+	/* << MN9PTR >> menu 1-1, 2-4	*/
+	/*   0, 10, 58, 68,  116,142,196 */
+616,10,"MENU 1.1 "
+616,48,"Arrangement of 1500 character text memory      "
+616,10,"MENU 2.4 "
+616,48,"Arrangement of 1500 character phrase library   "
+616,26,"Last        characters   "
+616,54,"Command: SET -> Track-ball -> SET   Return: ESC key  "
+
+	/* << MNS1PTR >> menu 1 select	*/
+	/*   0, 48, 56	*/
+622,48,"ENGLISH     GERMAN     FRENCH     SPANISH      "
+622,08,"YES  NO"
+622,18,"ON  OFF          "
+	/* << MNS2PTR >> menu 2 select	*/
+	/*   0, 56, 76, 94,  152,176,200,218	*/
+624,56,"Abdominal  OB/GYN  Cardiac  Urology  Orthopedic        "
+624,20,"MO/DA/YR  DA/MO/YR "
+624,18,"+1hour -1hour    "
+624,58,"GSD  CRL  BPD  OFD  HC  FL  TAD  APAD  AC  CHD  FORMULA  "
+624,24,"grams  lbs./oz.        "
+624,24,"Direct  Averaged       "
+624,18,"Low  Mid  High   "
+624,40,"Simple-average  Regression-equation   "
+	/* << MNS3PTR >> menu 3 select	*/
+        /*   0, 32, 64, 80,  104,128,134,146,  172      */
+626,32,"OFF  5min  10min  15min  20min "
+626,32,"OFF  1  2  3  4  5  6  7  8  9 "
+626,16,"Double   Single"
+626,24,"Partial     Full       "
+626,24,"OFF  2sec  ON          "
+626,06,"dB  %"
+626,14,"Up Down      "
+626,26,"Transverse  Longitudinal "
+626,26,"J4-J6,J3-J7  J4-J7,J3-J6 "
+	/* << MNS4PTR >> menu 1-2 select	*/
+	/*   0, 16	*/
+628,16,"none  odd  even"
+628,26,"SonoComp HP-LP FX80     "
+	/* << MNS5PTR >> menu 2-5 select	*/
+630,32,"[1] [2] [3] [4] [5] [6] [7] [8]"
+	/* << MNS8PTR >> annotation set, etc.	*/
+	/*   0, 48, 62,102,	134,158		*/
+636,48,"Append  Replace  Insert  Copy  Delete  Sort    "
+636,14,"Patient-Posi. "
+636,40,"ABD OB/GYN Cardiac Urology Ortho.      "
+636,32,"Loading annotation text.       "
+636,24,"Enter password.        "
+636,32,"Select annotation group :      "
+
+
+	/* << ANNO1PTR >> annotation text	*/
+	/*	character size (120= 98 + 22)	*/
+650,09,"Sagittal\013"
+650,11,"Transverse\013"
+650,08,"Coronal\013"
+650,15,"Left Lat Decub\013"
+650,16,"Right Lat Decub\013"
+650,07,"Supine\013"
+650,06,"Prone\013"
+650,14,"Trendelenberg\013"
+650,05,"Left\013"
+650,07,"Right\013\012"
+650,22,"                      "
+
+	/* << ANNO2PTR >> annotation text (ABD)	*/
+	/*	character size (350 = 313 + 37)	*/
+651,08,"Abdomen\013"
+651,06,"Aorta\013"
+651,04,"CBD\013"
+651,15,"Carotid Artery\013"
+651,14,"Celiac Artery\013"
+651,06,"Colon\013"
+651,10,"Diaphragm\013"
+651,09,"Duodenum\013"
+651,13,"Gall Bladder\013"
+651,06,"Ilium\013"
+651,10,"Intestine\013"
+651,07,"Kidney\013"
+651,06,"Liver\013"
+651,05,"Lobe\013"
+651,09,"Pancreas\013"
+651,12,"Portal Vein\013"
+651,07,"Portal\013"
+651,13,"Renal Artery\013"
+651,12,"Renal Calyx\013"
+651,13,"Renal Pelvis\013"
+651,11,"Renal Vein\013"
+651,04,"SMA\013"
+651,04,"SMV\013"
+651,07,"Spleen\013"
+651,13,"Splenic Vein\013"
+651,08,"Stomach\013"
+651,17,"Suprarenal Gland\013"
+651,14,"Thyroid Gland\013"
+651,08,"Trachea\013"
+651,07,"Ureter\013"
+651,08,"Urethra\013"
+651,16,"Urinary Bladder\013"
+651,11,"Vena Cava\013\012"
+651,37,"                                     "
+	/* << ANNO3PTR >> annotation text (OB/GYN)	*/
+	/*	character size (580 = 491 + 89)	*/
+652,15,"Amniotic Fluid\013"
+652,11,"Cerebellum\013"
+652,09,"Cerebrum\013"
+652,15,"Cervical Canal\013"
+652,07,"Cervix\013"
+652,08,"Chorion\013"
+652,15,"Choroid Plexus\013"
+652,08,"Decidua\013"
+652,07,"Embryo\013"
+652,13,"Femoral Head\013"
+652,06,"Femur\013"
+652,16,"Fetal Membranes\013"
+652,06,"Fetus\013"
+652,07,"Fornix\013"
+652,07,"Fundus\013"
+652,16,"Gestational Sac\013"
+652,05,"Head\013"
+652,06,"Heart\013"
+652,08,"Humerus\013"
+652,07,"Kidney\013"
+652,18,"Lateral Ventricle\013"
+652,06,"Liver\013"
+652,05,"Lobe\013"
+652,05,"Lung\013"
+652,06,"Orbit\013"
+652,06,"Ovary\013"
+652,09,"Pancreas\013"
+652,07,"Pelvis\013"
+652,09,"Placenta\013"
+652,11,"Polycystic\013"
+652,12,"Portal Vein\013"
+652,13,"Renal Artery\013"
+652,12,"Renal Calyx\013"
+652,13,"Renal Pelvis\013"
+652,18,"Septum Pellucidum\013"
+652,04,"SMA\013"
+652,04,"SMV\013"
+652,09,"Thalamus\013"
+652,15,"Umbilical Cord\013"
+652,15,"Umbilical Vein\013"
+652,07,"Ureter\013"
+652,08,"Urethra\013"
+652,16,"Urinary Bladder\013"
+652,15,"Uterine Cavity\013"
+652,13,"Uterine Tube\013"
+652,07,"Uterus\013"
+652,07,"Vagina\013"
+652,10,"Vena Cava\013"
+652,09,"Vertebra\013"
+652,10,"Yolk Sac\013\012"
+652,50,"                                                  "
+652,39,"                                       "
+	/* << ANNO4PTR >> annotation text (Cardiac)	*/
+	/*	character size (160 = 38 + 122)	*/
+653,11,"Short Axis\013"
+653,13,"Long Axis 2C\013"
+653,14,"Long Axis 4C\013\012"
+653,50,"                                                  "
+653,50,"                                                  "
+653,22,"                      "
+	/* << ANNO5PTR >> annotation text (Urology)	*/
+	/*	character size (150 = 134 + 16)	*/
+654,08,"Capsule\013"
+654,06,"Colon\013"
+654,09,"Prostate\013"
+654,07,"Rectum\013"
+654,13,"Renal Artery\013"
+654,12,"Renal Calyx\013"
+654,13,"Renal Pelvis\013"
+654,11,"Renal Vein\013"
+654,16,"Seminal Vesicle\013"
+654,07,"Testis\013"
+654,07,"Ureter\013"
+654,08,"Urethra\013"
+654,17,"Urinary Bladder\013\012"
+654,16,"                "
+	/* << ANNO6PTR >> annotation text (Orthopedics)	*/
+	/*	character size (130 = 105 + 25)	*/
+655,11,"Acetabulum\013"
+655,09,"Bony Rim\013"
+655,13,"Femoral Head\013"
+655,06,"Femur\013"
+655,19,"Greater Trochanter\013"
+655,05,"Head\013"
+655,09,"Hip Bone\013"
+655,10,"Hip Joint\013"
+655,08,"Humerus\013"
+655,06,"Ilium\013"
+655,09,"Ischium\013\012"
+655,25,"                         "
+
+
+	/* << ROMSGPTR >> status read out item	*/
+800,10,"FQ 000 000"
+800,10,"XD 000 000"
+800,10,"SC 000 000"
+800,10,"FC 000 000"
+800,10,"FR 000 000"
+800,10,"EE 000 000"
+800,10,"DR 000 000"
+800,10,"CL 000 000"
+800,10,"TX 000 000"
+800,10,"RX 000 000"
+800,10,"SS 000 000"
+	/* << RDMSGPTR >>	*/
+801,10,"XD 000 000"
+801,10,"NQ 000 000"
+801,10,"nq 000 000"
+801,10,"AG 000 000"
+801,10,"          "
+801,10,"RF 000 000"
+801,10,"RG 000 000"
+801,10,"WF 000 000"
+801,10,"TX 000 000"
+801,10,"RX 000 000"
+801,10,"SS 000 000"
+
+	/* << LIDUPTR >>	*/
+810,22,"  DUPLEX   SMALL-PARTS"
+
+	/* << PHRASEPTR >> phrase liblaly	*/
+820,08,"NO SPACE"
+
+	/* << TXMSGPTR >> text mode overflow	*/
+830,62,"    TEXT MODE OVERFLOW !                                     "
+
+	/* << DIAGPTR >> diag field	*/
+840,40,"ABD     OB/GYN  Cardiac Urology Ortho.  "
+	/* << DIAGABLE >> diag enable	*/
+841,06,"bdpqxz"
+
+	/* << FLPY1PTR >> floppy message	*/
+850,16,"Disk error      "
+	/* << FLPY2PTR >>	*/
+851,26,"Write protected           "
+	/* << FLPY3PTR >>	*/
+852,10,"COMPLETED "
+	/* << FLPY4PTR >>	*/
+853,26,"Saving Image data ...    "
+	/* << FLPY5PTR >>	*/
+854,16,"Data saving ..."
+	/* << IMGERR1PTR >> image data save/load	*/
+855,22,"   IMAGE NOT FROZEN   "
+	/* << IMGERRPTR >>	*/
+856,18,"NO SPACE ON DISK "
+	/* << IMGMSGPTR >>	*/
+857,54,"NO.     DATE     TIME            ID.              MODE"
+	/* << IMGHELPPTR >>	*/
+858,50,"Entry : Trackball and SET key Cancel : ESC key    "
+	/* << FL_INSPTR >> FD insert message	*/
+859,26,"PLEASE INSERT FLOPPY DISK"
+	/* << DIRVOLPTR >> floppy directory disp.	*/
+860,16,"Diskette label: "
+	/* << DIRNOENTPTR >>	*/
+861,16," no entry       "
+	/* << DIRNOFILEPTR >>	*/
+862,22,"FILE NOT FOUND       "
+	/* << DIRDELPTR >>	*/
+863,14,"DELETE FILE   "
+	/* << DIRPAGEPTR >>	*/
+864,18,"page    (total   )"
+	/* << DIRHEADPTR >>	*/
+865,46,"Filename       Size(byte)   Date         Time "
+	/* << DIRTYPEPTR >>	*/
+866,14,"FD type    ---"
+	/* << DIRTOTALPTR >>	*/
+867,14,"File total ---"
+	/* << FDHELPPTR >>	*/
+868,20,"Select : Trackball  "
+869,18,"Return : ESC key  "
+870,18,"Execute: SET key  "
+871,26,"Delete : SHIFT + CLEAR key"
+	/* << FDLABINPTR >>	*/
+872,46,"Enter diskette label. (maximum 11 characters) "
+	/* << FDNAMEINPTR >>	*/
+873,46,"Enter file name.      (maximum 11 characters) "
+	/* << FDFMTPTR >>	*/
+874,14,"FORMATTING ..."
+	/* << FDSYSSVPTR >>	*/
+875,26,"SAVING System Program ..."
+	/* << FDLDDATPTR >>	*/
+876,16,"DATA LOADING ..."
+	/* << FDFLSELPTR >>	*/
+877,24,"Select file name.       "
+	/* << FDNMERRPTR >>	*/
+878,16,"FILE NAME ERROR"
+	/* << FDPATPTR >>	*/
+879,08,"Patient"
+	/* << FDPREPTR >>	*/
+880,08,"Preset "
+	/* << FDMENUPTR >>	*/
+881,16,"  FD UTILITIES  "
+	/* << FDITEMPTR >>	*/
+	/*   0, 36, 72,108,  144,180,216,252,  288,324,360	*/
+882,36,"directory                          "
+882,36,"save patient data                  "
+882,36,"save preset data                   "
+882,36,"save image data w/o patient data   "
+882,36,"save image data w/  patient data   "
+882,36,"load patient data                  "
+882,36,"load preset data                   "
+882,36,"load image data                    "
+882,36,"format                             "
+882,36,"save system program                "
+882,36,"load system program                "
+ 	/* << FDSYSLDPTR >>	*/
+883,40,"SAVE PRESET DATA ON DISK               "
+883,08,"YES\012NO\012"
+
+end
+
+/* PROTOCOL  1 (Othor.)	*/
+begin,20,
+/*  0....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+.. */
+27 "  ID._______________________________ *   (fix anno.)                DA/MO/YR  "
+26 "                    SONOGRAPHIC INFANT HIP CLASSIFICATION           HR:MN:SC  "
+25 "  *__/__/__ ____________________________________________                      "
+24 "    TYPE:           \016:          \017:          D:          \020:          \021:        "
+23 "  OSSEOUS           GOOD      DEFICIENT   DEFICIENT     POOR        POOR      "
+22 "  PROFILING        L_  R_      L_  R_      L_  R_      L_  R_      L_  R_     "
+21 "                                                                              "
+20 "  OSSEOUS           SHARP       ROUND      ROUND/       FLAT        FLAT      "
+19 "  ACETABULUM       L_  R_      L_  R_      FLAT        L_  R_      L_  R_     "
+18 "                                           L_  R_                             "
+17 "                                                                              "
+16 "  CARTILAGINOUS    NARROW      WIDE/       EVERTED    EVERTED     EVERTED     "
+15 "  ACETABULUM       L_  R_      OVERLAPP.    L_  R_    ECHO FREE               "
+14 "                               L_   R_                 L_  R_      L_ R_      "
+13 "                                                      ECHO DENSE              "
+12 "                                                       L_  R_                 "
+11 "  TYPE OF HIP   \016a:L_  R_   \017a:L_  R_    \020a:L_  R_                            "
+10 "                \016b:L_  R_   \017b:L_  R_    \020b:L_  R_                            "
+ 9 "                            \017c:L_  R_                                         "
+ 8 "                                                                              "
+ 7 "  ANGLE         LEFT    \360:    \245   \252:    \245                                     "
+ 6 "                RIGHT   \360:    \245   \252:    \245                                     "
+ 5 "  COMMENTS                                                                    "
+ 4 "    ____________________________________________________________              "
+ 3 "    ____________________________________________________________              "
+ 2 "    ____________________________________________________________              "
+ 1 "    ____________________________________________________________              "
+ 0 "_rint  Clear : CTRL+Clear key, Enter : SET key, Return : ESC key              "
+/*  0....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+.. */
+end
+
+/* PROTOCOL  2 (OB -1)	*/
+begin,21,
+/*  0....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+.. */
+27 "  ID._______________________________ *   (fix anno.)                DA/MO/YR  "
+26 "  DOB:  __/__/__   Age: xx        Height: ____     Weight: ___      HR:MN:SC  "
+25 "  Gravida: __     Para: __     Abortions: __     Ectopics: __                 "
+24 "  LMP:  __/__/__      AGE  __w_d      DEL   __/__/__                          "
+23 "  GSD  /           N/A     XXwXd \022Xw                                          "
+22 "  CRL  /           N/A     XXwXd \022Xw                                          "
+21 "  BPD  /           N/A     XXwXd \022Xw                                          "
+20 "  OFD  /           N/A     XXwXd \022Xw                                          "
+19 "  HC   /           N/A     XXwXd \022Xw                                          "
+18 "  FL   /           N/A     XXwXd \022Xw                                          "
+17 "  TAD  /           N/A     XXwXd \022Xw                                          "
+16 "  APAD /           N/A     XXwXd \022Xw                                          "
+15 "  AC   /           N/A     XXwXd \022Xw                                          "
+14 "  CHD  /           N/A     XXwXd \022Xw                                          "
+13 "                                      LMP                                EDC  "
+12 "  COMPOSITE:          \301\307\305  XXwXd      \304\305\314   DA/MO/YR                          "
+11 "                                                                              "
+10 "  CI                   xx    (74-83)                                          "
+ 9 "  HC/AC /Campbell       x.xx (    -    -    )                                 "
+ 8 "  FL/AC  x.xx   FL/BPD  x.xx   FL/HC  x.xx                                    "
+ 7 "  EFBW /                        FHR:  xxx B/m                                 "
+ 6 "  Comments :                                                                  "
+ 5 "  Biophysical Profile:    Fetal Tone:        _   _   _                        "
+ 4 "                          Fetal Breathing:   _   _   _                        "
+ 3 "                          Fetal Movement:    _   _   _                        "
+ 2 "                          Amniotic Fluid:    _   _   _                        "
+ 1 "                          Total Score:       xx                               "
+ 0 "  _rint    Clear : CTRL+Clear key,  Return : ESC key                          "
+/*  0....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+.. */
+end
+
+/* PROTOCOL  3 (Cardiac)	*/
+begin,22,
+/*  0....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+.. */
+27 "  ID._______________________________ *   (fix anno.)                DA/MO/YR  "
+26 "  DATE of BIRTH:  __/__/__    HEIGHT:  ___cm    WEIGHT:  ___kg      HR:MN:SC  "
+25 "  BP:  ___/___mmHg            HR:  ___B/m       BODY SURFACE:     m\004          "
+24 "  REASON for EXAM:  ________________________________________________________  "
+23 "  CARDIAC MEASUREMENT:                                                        "
+22 "   AOD  =    mm(21-44) LVPW =    mm( 6-12) IVS  =    mm( 6-12)  LVEDV=    ml  "
+21 "   AOEX =    mm        LVEDD=    mm(37-56) DEamp=    mm         LVESV=    ml  "
+20 "   LA   =    mm(18-39) LVESD=    mm(27-37) EFslope=    mm/s     SV   =    ml  "
+19 "   RVEDD=    mm( 9-26) FS   =    % (  >25)                      EFrac=    %   "
+18 "                                                                              "
+17 "  MVA:                 Pmax =    mmHg   A    =    cm\004                         "
+16 "                       Vmax =    cm/s   t/2  =    ms                          "
+15 "                                                                              "
+14 "  VESSEL:              A    =    mm\004    TAV  =    cm/s                        "
+13 "                       FR   =    ml/min RI=     PI=                           "
+12 "                                                                              "
+11 "  AORTIC STENOSIS:     A2   =    mm\004    Vmax =    cm/s                        "
+10 "                       Pmax =    mmHg   Pmean=    mmHg                        "
+ 9 "  COMMENTS:                                                                   "
+ 8 "    _________________________________________________                         "
+ 7 "    _________________________________________________                         "
+ 6 "    _________________________________________________                         "
+ 5 "    _________________________________________________                         "
+ 4 "    _________________________________________________                         "
+ 3 "    _________________________________________________                         "
+ 2 "    _________________________________________________                         "
+ 1 "    _________________________________________________                         "
+ 0 "  _rint    Clear : CTRL+Clear key,  Return : ESC key                          "
+/*  0....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+.. */
+end
+
+/* PROTOCOL  4 (End Rectal)	*/
+begin,23,
+/*  0....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+.. */
+27 "                     ENDORECTAL SONOGRAPHY (ERS)                    DA/MO/YR  "
+26 "  ID._______________________________ *   (fix anno.)                HE:MN:SC  "
+25 "  *****Assessment :  __________________________________________________*****  "
+24 "  *****           :  __________________________________________________*****  "
+23 "      Diameter of findings (cm):                     *Volume (cm\005)            "
+22 "  Radial:        Transver.:        Longitud.:        *ELL:        SP:         "
+21 "      Localization of findings:                                               "
+20 "      Clock:    From       To           Aborad   border (cm):                 "
+19 "                                                                              "
+18 "#                                                                             "
+17 "                                                                              "
+16 "#                                                                             "
+15 "                                                                              "
+14 "#                                                                             "
+13 "                                                                              "
+12 "#                                                                             "
+11 "                                                                              "
+10 "#                                                                             "
+ 9 "   Echogenicity of find.:   _ypoechoic   _soechoic   _yperechoic   _iffuse    "
+ 8 "  ERS-stage (for mal. tumors):   uT__ LN (mal. suspicion): __                 "
+ 7 "   Echogenicity of lymphn.:   _ypoechoic   _soechoic   _yperechoic            "
+ 6 "  Findings  :                                                                 "
+ 5 "    ________________________________________________________________________  "
+ 4 "    ________________________________________________________________________  "
+ 3 "    ________________________________________________________________________  "
+ 2 "    ________________________________________________________________________  "
+ 1 "          Investigator: _____     Images: __     Video: ______                "
+ 0 "  _rint    Clear : CTRL+Clear key,  Return : ESC key                          "
+/*  0....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+.. */
+end
+
+/* PROTOCOL  5 (Prostate)	*/
+begin,24,
+/*  0....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+.. */
+27 "                TRANSRECTAL PROSTATE SONOGRAPHY (TPS)               DA/MO/YR  "
+26 "  ID._______________________________ *   (fix anno.)                HE:MN:SC  "
+25 "  *****Assessment :  __________________________________________________*****  "
+24 "  *****           :  __________________________________________________*****  "
+23 "  Digital investigation:  Malignancy suspicion:  _o  _es  _eft  _ight         "
+22 "                          Clinical TNM        :   ___________                 "
+21 "  TPS: prostate                                                               "
+20 "  Enlargement :  _o  _es  _ymmetrical  _eft  _ight                            "
+19 "  Capsule     :  _ntact  _isrupted                                            "
+18 "  Echogenicity:  _ormal  _ypoechoic  _soechoic  _yperechoic  _iffuse          "
+17 "    1.Malignancy suspicion:  _o  _es   uT__                                   "
+16 "    2.Adenoma             :  _o  _es   3.Prostatitis:  _o  _es                "
+15 "  Size (cm): Diam.:        Height:        Length:       *Volume (cm\005)         "
+14 "     Seminal Vesicles                                   *ELL:       SP:       "
+13 "  Enlargement:  _o  _es  _ymmetrical  _eft  _ight  _trophic                   "
+12 "  Localization                                                                "
+11 "  of findings:                                                                "
+10 "                                                                              "
+ 9 "#                                                                             "
+ 8 "                                                                              "
+ 7 "#                                                                             "
+ 6 "                                                                              "
+ 5 "  Findings  :                                                                 "
+ 4 "    ________________________________________________________________________  "
+ 3 "    ________________________________________________________________________  "
+ 2 "    ________________________________________________________________________  "
+ 1 "  Investigator: _____   Images: __   Video: ______   Puncture:  ______        "
+ 0 "  _rint    Clear : CTRL+Clear key,  Return : ESC key                          "
+/*  0....+....1....+....2....+....3....+....4....+....5....+....6....+....7....+.. */
+end
+
+END
